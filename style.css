@@ -54,3 +54,23 @@
 .login-box button:hover {
     background-color: #2563eb;
 }
+
+.login-box input:focus { 
+    border: 2px solid #2563eb;
+}
+
+.login-box {
+    width: 300px;
+    padding: 40px;
+
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+
+    color: white;
+
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
