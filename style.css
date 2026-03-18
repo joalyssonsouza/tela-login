@@ -25,3 +25,32 @@
 
     color: white;
 }
+
+.login-box input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+
+    border: none;
+    border-radius: 5px;
+
+    outline: none;
+}
+
+.login-box button{
+    width: 100%;
+    padding: 10px;
+    margin: 15px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #1e3a8a;
+    color: white;
+
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #2563eb;
+}
