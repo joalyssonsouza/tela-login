@@ -1,13 +1,21 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
-.conteiner {
+}
+
+/* FONTE */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* CONTAINER */
+.container {
     height: 100vh;
     width: 100%;
 
-    background-image: url(img/background.jpg.jpg);
+    background-image: url('img/background.jpg');
     background-size: cover;
     background-position: center;
 
@@ -16,61 +24,108 @@
     align-items: center;
 }
 
+/* LOGIN BOX */
 .login-box {
-    width: 300px;
+    width: 320px;
     padding: 40px;
 
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
 
+    border-radius: 12px;
     color: white;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
 }
 
-.login-box input{
-    width: 100%;
-    padding: 10px;
+/* HOVER BOX */
+.login-box:hover {
+    transform: scale(1.02);
+}
+
+/* TÍTULO */
+.login-box h2 {
+    margin-bottom: 10px;
+}
+
+/* TEXTO */
+.subtitle {
+    font-size: 13px;
+    color:  rgba(255, 255, 255, 0.9);
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+/* INPUT BOX */
+.input-box {
     margin: 10px 0;
-
-    border: none;
-    border-radius: 5px;
-
-    outline: none;
+    position: relative;
 }
 
-.login-box button{
+/* ÍCONES */
+.icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* INPUT */
+.input-box input {
     width: 100%;
     padding: 10px;
-    margin: 15px;
+    padding-left: 40px;
 
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
+    outline: none;
+
+    transition: 0.3s;
+}
+
+/* INPUT FOCUS */
+.input-box input:focus {
+    border: 2px solid #2563eb;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* BOTÃO */
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+
+    border: none;
+    border-radius: 6px;
 
     background-color: #1e3a8a;
     color: white;
 
     cursor: pointer;
+    transition: 0.3s;
 }
 
+/* HOVER BOTÃO */
 .login-box button:hover {
     background-color: #2563eb;
 }
 
-.login-box input:focus { 
-    border: 2px solid #2563eb;
+/* CLICK BOTÃO */
+.login-box button:active {
+    transform: scale(0.97);
 }
 
-.login-box {
-    width: 300px;
-    padding: 40px;
-
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
-
-    color: white;
-
-    text-align: center;
+/* ESQUECEU SENHA */
+.forgot-password {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #ccc;
+    cursor: pointer;
 }
 
-.login-box h2 {
-    margin-bottom: 20px;
+.forgot-password:hover {
+    color: #2563eb;
 }
