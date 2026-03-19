@@ -71,6 +71,7 @@ body {
 /* HOVER BOX */
 .login-box:hover {
     transform: scale(1.02);
+    box-shadow: 0 15px 40px rgb(0, 0, 0, 0.4);
 }
 
 /* TÍTULO */
