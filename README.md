@@ -16,11 +16,12 @@ Projeto de uma interface de login moderna e responsiva, desenvolvido com HTML e 
 
 ## 📸 Preview
 
-![Preview do projeto](coloque-aqui-o-link-da-sua-imagem)
+![background](https://github.com/user-attachments/assets/3b4c216d-86bd-4ace-b81d-5069af81c9f8)
+
 
 ## 🔗 Acesse o projeto
 
-👉 [Clique aqui para ver o projeto](coloque-aqui-o-link-do-seu-github-pages-ou-repo)
+👉 [Clique aqui para ver o projeto]https://joalyssonsouza.github.io/tela-login/
 
 ## 📌 Status
 
